@@ -1,6 +1,6 @@
 use std::cmp::Ordering;
 
-#[derive(PartialEq, Copy, Clone)]
+#[derive(PartialEq, Copy, Clone, Debug)]
 pub struct ElfBag {
     num_calories: i32,
     index: i32,
